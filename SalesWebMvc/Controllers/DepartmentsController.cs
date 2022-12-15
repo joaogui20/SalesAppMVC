@@ -6,8 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Data;
+using SalesWebMvc.Models;
 
-namespace SalesWebMvc.Models
+namespace SalesWebMvc.Controllers
 {
     public class DepartmentsController : Controller
     {
